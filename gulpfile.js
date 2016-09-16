@@ -5,9 +5,7 @@ var useref = require('gulp-useref');
 var inject = require('gulp-inject');
 var gulpif = require('gulp-if');
 var templateCache = require('gulp-angular-templatecache');
-var debug =  require('gulp-debug');
 var uglify =  require('gulp-uglify');
-var bowerSrc =  require('gulp-bower-src');
 var map = require('map-stream');
 
 var filesToMove = [
