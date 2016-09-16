@@ -67,7 +67,7 @@ gulp.task('start', function(){
 })
 
 gulp.task('start-prod', function(){
-    connect.server({ port: 1337, root: 'dist' });
+    connect.server({ port: 8080, root: 'dist' });
 })
 
 console.log('The bundle path',process.env.AHLGREN_SSL_BUNDLE_PATH);
