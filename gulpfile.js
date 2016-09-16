@@ -1,4 +1,5 @@
 var gulp = require('gulp')
+var fs = require('fs')
 var connect = require('gulp-connect');
 var shell = require('gulp-shell');
 var useref = require('gulp-useref');
@@ -6,7 +7,6 @@ var inject = require('gulp-inject');
 var gulpif = require('gulp-if');
 var templateCache = require('gulp-angular-templatecache');
 var uglify =  require('gulp-uglify');
-var map = require('map-stream');
 
 var filesToMove = [
     './src/css/style.css',
@@ -68,6 +68,16 @@ gulp.task('start', function(){
 
 gulp.task('start-prod', function(){
     connect.server({ port: 1337, root: 'dist' });
+})
+
+console.log('The bundle path',process.env.AHLGREN_SSL_BUNDLE_PATH);
+
+gulp.task('start-prod-ssl', function(){
+    connect.server({ port: 443, root: 'dist', https: {
+        ca: fs.readFileSync(process.env.AHLGREN_SSL_BUNDLE_PATH),
+        key: fs.readFileSync(process.env.AHLGREN_SSL_KEY_PATH),
+        crt: fs.readFileSync(process.env.AHLGREN_SSL_CERT_PATH)
+    }});
 })
 
 gulp.task('sass', shell.task(["sass --watch src/css:src/css  -r 'compass/import-once/activate' --style compressed"]));
