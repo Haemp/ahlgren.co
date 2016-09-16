@@ -1,0 +1,191 @@
+/*
+Icon classes can be used entirely standalone. They are named after their original file names.
+
+```html
+<!-- `display: block` sprite -->
+<div class="icon-home"></div>
+
+<!-- `display: inline-block` sprite -->
+<img class="icon-home" />
+```
+*/
+.icon-icon-ahlgren-white {
+  background-image: url(../img/spritesheet.png);
+  background-position: -55px -110px;
+  width: 29px;
+  height: 17px;
+}
+.icon-icon-angular {
+  background-image: url(../img/spritesheet.png);
+  background-position: -74px 0px;
+  width: 31px;
+  height: 34px;
+}
+.icon-icon-bower {
+  background-image: url(../img/spritesheet.png);
+  background-position: -105px 0px;
+  width: 34px;
+  height: 29px;
+}
+.icon-icon-code {
+  background-image: url(../img/spritesheet.png);
+  background-position: -25px -110px;
+  width: 30px;
+  height: 18px;
+}
+.icon-icon-codeigniter {
+  background-image: url(../img/spritesheet.png);
+  background-position: -139px 0px;
+  width: 25px;
+  height: 32px;
+}
+.icon-icon-cv {
+  background-image: url(../img/spritesheet.png);
+  background-position: -164px 0px;
+  width: 18px;
+  height: 22px;
+}
+.icon-icon-design-blue {
+  background-image: url(../img/spritesheet.png);
+  background-position: -46px -132px;
+  width: 22px;
+  height: 21px;
+}
+.icon-icon-email {
+  background-image: url(../img/spritesheet.png);
+  background-position: -114px -132px;
+  width: 22px;
+  height: 18px;
+}
+.icon-icon-fireworks {
+  background-image: url(../img/spritesheet.png);
+  background-position: 0px 0px;
+  width: 37px;
+  height: 37px;
+}
+.icon-icon-git {
+  background-image: url(../img/spritesheet.png);
+  background-position: -37px 0px;
+  width: 37px;
+  height: 37px;
+}
+.icon-icon-github {
+  background-image: url(../img/spritesheet.png);
+  background-position: -91px -132px;
+  width: 23px;
+  height: 19px;
+}
+.icon-icon-google-cloud {
+  background-image: url(../img/spritesheet.png);
+  background-position: 0px -65px;
+  width: 33px;
+  height: 31px;
+}
+.icon-icon-gplug {
+  background-image: url(../img/spritesheet.png);
+  background-position: 0px -132px;
+  width: 23px;
+  height: 23px;
+}
+.icon-icon-gplus {
+  background-image: url(../img/spritesheet.png);
+  background-position: -23px -132px;
+  width: 23px;
+  height: 23px;
+}
+.icon-icon-grunt {
+  background-image: url(../img/spritesheet.png);
+  background-position: -105px -59px;
+  width: 25px;
+  height: 33px;
+}
+.icon-icon-gulp {
+  background-image: url(../img/spritesheet.png);
+  background-position: -139px -32px;
+  width: 21px;
+  height: 38px;
+}
+.icon-icon-heart-white {
+  background-image: url(../img/spritesheet.png);
+  background-position: -84px -110px;
+  width: 20px;
+  height: 16px;
+}
+.icon-icon-html5 {
+  background-image: url(../img/spritesheet.png);
+  background-position: -38px -37px;
+  width: 25px;
+  height: 28px;
+}
+.icon-icon-idea-blue {
+  background-image: url(../img/spritesheet.png);
+  background-position: -164px -22px;
+  width: 15px;
+  height: 21px;
+}
+.icon-icon-jquery {
+  background-image: url(../img/spritesheet.png);
+  background-position: -74px -34px;
+  width: 27px;
+  height: 26px;
+}
+.icon-icon-lead-blue {
+  background-image: url(../img/spritesheet.png);
+  background-position: 0px -110px;
+  width: 25px;
+  height: 22px;
+}
+.icon-icon-mongodb {
+  background-image: url(../img/spritesheet.png);
+  background-position: -139px -70px;
+  width: 20px;
+  height: 36px;
+}
+.icon-icon-node {
+  background-image: url(../img/spritesheet.png);
+  background-position: -33px -65px;
+  width: 53px;
+  height: 19px;
+}
+.icon-icon-person-white {
+  background-image: url(../img/spritesheet.png);
+  background-position: -164px -43px;
+  width: 16px;
+  height: 19px;
+}
+.icon-icon-person {
+  background-image: url(../img/spritesheet.png);
+  background-position: -164px -62px;
+  width: 16px;
+  height: 19px;
+}
+.icon-icon-sass {
+  background-image: url(../img/spritesheet.png);
+  background-position: 0px -37px;
+  width: 38px;
+  height: 28px;
+}
+.icon-icon-testing {
+  background-image: url(../img/spritesheet.png);
+  background-position: 0px -96px;
+  width: 61px;
+  height: 14px;
+}
+.icon-icon-twitter {
+  background-image: url(../img/spritesheet.png);
+  background-position: -68px -132px;
+  width: 23px;
+  height: 19px;
+}
+.icon-icon-wordpress {
+  background-image: url(../img/spritesheet.png);
+  background-position: -105px -29px;
+  width: 30px;
+  height: 30px;
+}
+.icon-testing {
+  background-image: url(../img/spritesheet.png);
+  background-position: -61px -96px;
+  width: 61px;
+  height: 14px;
+}

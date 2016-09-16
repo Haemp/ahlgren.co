@@ -1,0 +1,36 @@
+<div class="Profile" relative-media-query="{'small': 400}">
+    <div class="L-hbox">
+        <div class="L-hbox-1">
+            <img ng-src="image" alt="Profile Image"/>
+        </div>
+        <div class="Profile-description-container L-hbox-4" ng-transclude></div>
+    </div>
+
+    <ul class="Profile-link-container L-hbox">
+        <li class="L-hbox-1">
+            <a href="{{ githubUrl }}">
+                <icon-text icon="github">Github</icon-text>
+            </a>
+        </li>
+        <li class="L-hbox-1">
+            <a href="{{ cvUrl }}" target="_blank">
+                <icon-text icon="cv">CV</icon-text>
+            </a>
+        </li>
+        <li class="L-hbox-1">
+            <a href="mailto: {{ email }}" target="_blank">
+                <icon-text icon="email">Email</icon-text>
+            </a>
+        </li>
+        <li class="L-hbox-1">
+            <a href="{{ gplusUrl }}">
+                <icon-text icon="gplus">Google +</icon-text>
+            </a>
+        </li>
+        <li class="L-hbox-1">
+            <a href="{{ twitterUrl }}">
+                <icon-text icon="twitter">Twitter</icon-text>
+            </a>
+        </li>
+    </ul>
+</div>

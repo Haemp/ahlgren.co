@@ -1,0 +1,301 @@
+/*
+SCSS variables are information about icon's compiled state, stored under its original file name
+
+.icon-home {
+  width: $icon-home-width;
+}
+
+The large array-like variables contain all information about a single icon
+$icon-home: x y offset_x offset_y width height total_width total_height image_path;
+
+At the bottom of this section, we provide information about the spritesheet itself
+$spritesheet: width height image $spritesheet-sprites;
+*/
+$icon-ahlgren-white-name: 'icon-ahlgren-white';
+$icon-ahlgren-white-x: 21px;
+$icon-ahlgren-white-y: 102px;
+$icon-ahlgren-white-offset-x: -21px;
+$icon-ahlgren-white-offset-y: -102px;
+$icon-ahlgren-white-width: 29px;
+$icon-ahlgren-white-height: 17px;
+$icon-ahlgren-white-total-width: 155px;
+$icon-ahlgren-white-total-height: 140px;
+$icon-ahlgren-white-image: '../img/spritesheet.png';
+$icon-ahlgren-white: (21px, 102px, -21px, -102px, 29px, 17px, 155px, 140px, '../img/spritesheet.png', 'icon-ahlgren-white', );
+$icon-angular-name: 'icon-angular';
+$icon-angular-x: 39px;
+$icon-angular-y: 28px;
+$icon-angular-offset-x: -39px;
+$icon-angular-offset-y: -28px;
+$icon-angular-width: 31px;
+$icon-angular-height: 34px;
+$icon-angular-total-width: 155px;
+$icon-angular-total-height: 140px;
+$icon-angular-image: '../img/spritesheet.png';
+$icon-angular: (39px, 28px, -39px, -28px, 31px, 34px, 155px, 140px, '../img/spritesheet.png', 'icon-angular', );
+$icon-bower-name: 'icon-bower';
+$icon-bower-x: 0px;
+$icon-bower-y: 73px;
+$icon-bower-offset-x: 0px;
+$icon-bower-offset-y: -73px;
+$icon-bower-width: 34px;
+$icon-bower-height: 29px;
+$icon-bower-total-width: 155px;
+$icon-bower-total-height: 140px;
+$icon-bower-image: '../img/spritesheet.png';
+$icon-bower: (0px, 73px, 0px, -73px, 34px, 29px, 155px, 140px, '../img/spritesheet.png', 'icon-bower', );
+$icon-code-name: 'icon-code';
+$icon-code-x: 86px;
+$icon-code-y: 73px;
+$icon-code-offset-x: -86px;
+$icon-code-offset-y: -73px;
+$icon-code-width: 30px;
+$icon-code-height: 18px;
+$icon-code-total-width: 155px;
+$icon-code-total-height: 140px;
+$icon-code-image: '../img/spritesheet.png';
+$icon-code: (86px, 73px, -86px, -73px, 30px, 18px, 155px, 140px, '../img/spritesheet.png', 'icon-code', );
+$icon-codeigniter-name: 'icon-codeigniter';
+$icon-codeigniter-x: 130px;
+$icon-codeigniter-y: 33px;
+$icon-codeigniter-offset-x: -130px;
+$icon-codeigniter-offset-y: -33px;
+$icon-codeigniter-width: 25px;
+$icon-codeigniter-height: 32px;
+$icon-codeigniter-total-width: 155px;
+$icon-codeigniter-total-height: 140px;
+$icon-codeigniter-image: '../img/spritesheet.png';
+$icon-codeigniter: (130px, 33px, -130px, -33px, 25px, 32px, 155px, 140px, '../img/spritesheet.png', 'icon-codeigniter', );
+$icon-design-blue-name: 'icon-design-blue';
+$icon-design-blue-x: 21px;
+$icon-design-blue-y: 119px;
+$icon-design-blue-offset-x: -21px;
+$icon-design-blue-offset-y: -119px;
+$icon-design-blue-width: 22px;
+$icon-design-blue-height: 21px;
+$icon-design-blue-total-width: 155px;
+$icon-design-blue-total-height: 140px;
+$icon-design-blue-image: '../img/spritesheet.png';
+$icon-design-blue: (21px, 119px, -21px, -119px, 22px, 21px, 155px, 140px, '../img/spritesheet.png', 'icon-design-blue', );
+$icon-git-name: 'icon-git';
+$icon-git-x: 0px;
+$icon-git-y: 36px;
+$icon-git-offset-x: 0px;
+$icon-git-offset-y: -36px;
+$icon-git-width: 37px;
+$icon-git-height: 37px;
+$icon-git-total-width: 155px;
+$icon-git-total-height: 140px;
+$icon-git-image: '../img/spritesheet.png';
+$icon-git: (0px, 36px, 0px, -36px, 37px, 37px, 155px, 140px, '../img/spritesheet.png', 'icon-git', );
+$icon-google-cloud-name: 'icon-google-cloud';
+$icon-google-cloud-x: 0px;
+$icon-google-cloud-y: 0px;
+$icon-google-cloud-offset-x: 0px;
+$icon-google-cloud-offset-y: 0px;
+$icon-google-cloud-width: 39px;
+$icon-google-cloud-height: 36px;
+$icon-google-cloud-total-width: 155px;
+$icon-google-cloud-total-height: 140px;
+$icon-google-cloud-image: '../img/spritesheet.png';
+$icon-google-cloud: (0px, 0px, 0px, 0px, 39px, 36px, 155px, 140px, '../img/spritesheet.png', 'icon-google-cloud', );
+$icon-grunt-name: 'icon-grunt';
+$icon-grunt-x: 130px;
+$icon-grunt-y: 0px;
+$icon-grunt-offset-x: -130px;
+$icon-grunt-offset-y: 0px;
+$icon-grunt-width: 25px;
+$icon-grunt-height: 33px;
+$icon-grunt-total-width: 155px;
+$icon-grunt-total-height: 140px;
+$icon-grunt-image: '../img/spritesheet.png';
+$icon-grunt: (130px, 0px, -130px, 0px, 25px, 33px, 155px, 140px, '../img/spritesheet.png', 'icon-grunt', );
+$icon-gulp-name: 'icon-gulp';
+$icon-gulp-x: 0px;
+$icon-gulp-y: 102px;
+$icon-gulp-offset-x: 0px;
+$icon-gulp-offset-y: -102px;
+$icon-gulp-width: 21px;
+$icon-gulp-height: 38px;
+$icon-gulp-total-width: 155px;
+$icon-gulp-total-height: 140px;
+$icon-gulp-image: '../img/spritesheet.png';
+$icon-gulp: (0px, 102px, 0px, -102px, 21px, 38px, 155px, 140px, '../img/spritesheet.png', 'icon-gulp', );
+$icon-heart-white-name: 'icon-heart-white';
+$icon-heart-white-x: 50px;
+$icon-heart-white-y: 102px;
+$icon-heart-white-offset-x: -50px;
+$icon-heart-white-offset-y: -102px;
+$icon-heart-white-width: 20px;
+$icon-heart-white-height: 16px;
+$icon-heart-white-total-width: 155px;
+$icon-heart-white-total-height: 140px;
+$icon-heart-white-image: '../img/spritesheet.png';
+$icon-heart-white: (50px, 102px, -50px, -102px, 20px, 16px, 155px, 140px, '../img/spritesheet.png', 'icon-heart-white', );
+$icon-html5-name: 'icon-html5';
+$icon-html5-x: 130px;
+$icon-html5-y: 65px;
+$icon-html5-offset-x: -130px;
+$icon-html5-offset-y: -65px;
+$icon-html5-width: 25px;
+$icon-html5-height: 28px;
+$icon-html5-total-width: 155px;
+$icon-html5-total-height: 140px;
+$icon-html5-image: '../img/spritesheet.png';
+$icon-html5: (130px, 65px, -130px, -65px, 25px, 28px, 155px, 140px, '../img/spritesheet.png', 'icon-html5', );
+$icon-idea-blue-name: 'icon-idea-blue';
+$icon-idea-blue-x: 43px;
+$icon-idea-blue-y: 119px;
+$icon-idea-blue-offset-x: -43px;
+$icon-idea-blue-offset-y: -119px;
+$icon-idea-blue-width: 15px;
+$icon-idea-blue-height: 21px;
+$icon-idea-blue-total-width: 155px;
+$icon-idea-blue-total-height: 140px;
+$icon-idea-blue-image: '../img/spritesheet.png';
+$icon-idea-blue: (43px, 119px, -43px, -119px, 15px, 21px, 155px, 140px, '../img/spritesheet.png', 'icon-idea-blue', );
+$icon-jquery-name: 'icon-jquery';
+$icon-jquery-x: 34px;
+$icon-jquery-y: 73px;
+$icon-jquery-offset-x: -34px;
+$icon-jquery-offset-y: -73px;
+$icon-jquery-width: 27px;
+$icon-jquery-height: 26px;
+$icon-jquery-total-width: 155px;
+$icon-jquery-total-height: 140px;
+$icon-jquery-image: '../img/spritesheet.png';
+$icon-jquery: (34px, 73px, -34px, -73px, 27px, 26px, 155px, 140px, '../img/spritesheet.png', 'icon-jquery', );
+$icon-lead-blue-name: 'icon-lead-blue';
+$icon-lead-blue-x: 61px;
+$icon-lead-blue-y: 73px;
+$icon-lead-blue-offset-x: -61px;
+$icon-lead-blue-offset-y: -73px;
+$icon-lead-blue-width: 25px;
+$icon-lead-blue-height: 22px;
+$icon-lead-blue-total-width: 155px;
+$icon-lead-blue-total-height: 140px;
+$icon-lead-blue-image: '../img/spritesheet.png';
+$icon-lead-blue: (61px, 73px, -61px, -73px, 25px, 22px, 155px, 140px, '../img/spritesheet.png', 'icon-lead-blue', );
+$icon-mongodb-name: 'icon-mongodb';
+$icon-mongodb-x: 77px;
+$icon-mongodb-y: 19px;
+$icon-mongodb-offset-x: -77px;
+$icon-mongodb-offset-y: -19px;
+$icon-mongodb-width: 23px;
+$icon-mongodb-height: 43px;
+$icon-mongodb-total-width: 155px;
+$icon-mongodb-total-height: 140px;
+$icon-mongodb-image: '../img/spritesheet.png';
+$icon-mongodb: (77px, 19px, -77px, -19px, 23px, 43px, 155px, 140px, '../img/spritesheet.png', 'icon-mongodb', );
+$icon-node-name: 'icon-node';
+$icon-node-x: 77px;
+$icon-node-y: 0px;
+$icon-node-offset-x: -77px;
+$icon-node-offset-y: 0px;
+$icon-node-width: 53px;
+$icon-node-height: 19px;
+$icon-node-total-width: 155px;
+$icon-node-total-height: 140px;
+$icon-node-image: '../img/spritesheet.png';
+$icon-node: (77px, 0px, -77px, 0px, 53px, 19px, 155px, 140px, '../img/spritesheet.png', 'icon-node', );
+$icon-person-white-name: 'icon-person-white';
+$icon-person-white-x: 58px;
+$icon-person-white-y: 119px;
+$icon-person-white-offset-x: -58px;
+$icon-person-white-offset-y: -119px;
+$icon-person-white-width: 16px;
+$icon-person-white-height: 19px;
+$icon-person-white-total-width: 155px;
+$icon-person-white-total-height: 140px;
+$icon-person-white-image: '../img/spritesheet.png';
+$icon-person-white: (58px, 119px, -58px, -119px, 16px, 19px, 155px, 140px, '../img/spritesheet.png', 'icon-person-white', );
+$icon-person-name: 'icon-person';
+$icon-person-x: 74px;
+$icon-person-y: 119px;
+$icon-person-offset-x: -74px;
+$icon-person-offset-y: -119px;
+$icon-person-width: 16px;
+$icon-person-height: 19px;
+$icon-person-total-width: 155px;
+$icon-person-total-height: 140px;
+$icon-person-image: '../img/spritesheet.png';
+$icon-person: (74px, 119px, -74px, -119px, 16px, 19px, 155px, 140px, '../img/spritesheet.png', 'icon-person', );
+$icon-sass-name: 'icon-sass';
+$icon-sass-x: 39px;
+$icon-sass-y: 0px;
+$icon-sass-offset-x: -39px;
+$icon-sass-offset-y: 0px;
+$icon-sass-width: 38px;
+$icon-sass-height: 28px;
+$icon-sass-total-width: 155px;
+$icon-sass-total-height: 140px;
+$icon-sass-image: '../img/spritesheet.png';
+$icon-sass: (39px, 0px, -39px, 0px, 38px, 28px, 155px, 140px, '../img/spritesheet.png', 'icon-sass', );
+$icon-wordpress-name: 'icon-wordpress';
+$icon-wordpress-x: 100px;
+$icon-wordpress-y: 19px;
+$icon-wordpress-offset-x: -100px;
+$icon-wordpress-offset-y: -19px;
+$icon-wordpress-width: 30px;
+$icon-wordpress-height: 30px;
+$icon-wordpress-total-width: 155px;
+$icon-wordpress-total-height: 140px;
+$icon-wordpress-image: '../img/spritesheet.png';
+$icon-wordpress: (100px, 19px, -100px, -19px, 30px, 30px, 155px, 140px, '../img/spritesheet.png', 'icon-wordpress', );
+$spritesheet-width: 155px;
+$spritesheet-height: 140px;
+$spritesheet-image: '../img/spritesheet.png';
+$spritesheet-sprites: ($icon-ahlgren-white, $icon-angular, $icon-bower, $icon-code, $icon-codeigniter, $icon-design-blue, $icon-git, $icon-google-cloud, $icon-grunt, $icon-gulp, $icon-heart-white, $icon-html5, $icon-idea-blue, $icon-jquery, $icon-lead-blue, $icon-mongodb, $icon-node, $icon-person-white, $icon-person, $icon-sass, $icon-wordpress, );
+$spritesheet: (155px, 140px, '../img/spritesheet.png', $spritesheet-sprites, );
+
+/*
+The provided mixins are intended to be used with the array-like variables
+
+.icon-home {
+  @include sprite-width($icon-home);
+}
+
+.icon-email {
+  @include sprite($icon-email);
+}
+*/
+@mixin sprite-width($sprite) {
+  width: nth($sprite, 5);
+}
+
+@mixin sprite-height($sprite) {
+  height: nth($sprite, 6);
+}
+
+@mixin sprite-position($sprite) {
+  $sprite-offset-x: nth($sprite, 3);
+  $sprite-offset-y: nth($sprite, 4);
+  background-position: $sprite-offset-x  $sprite-offset-y;
+}
+
+@mixin sprite-image($sprite) {
+  $sprite-image: nth($sprite, 9);
+  background-image: url(#{$sprite-image});
+}
+
+@mixin sprite($sprite) {
+  @include sprite-image($sprite);
+  @include sprite-position($sprite);
+  @include sprite-width($sprite);
+  @include sprite-height($sprite);
+}
+
+/*
+The `sprites` mixin generates identical output to the CSS template
+  but can be overridden inside of SCSS
+
+@include sprites($spritesheet-sprites);
+*/
+@mixin sprites($sprites) {
+  @each $sprite in $sprites {
+    $sprite-name: nth($sprite, 10);
+    .#{$sprite-name} {
+      @include sprite($sprite);
+    }
+  }
+}
