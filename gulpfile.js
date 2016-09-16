@@ -73,7 +73,7 @@ gulp.task('start-prod', function(){
 console.log('The bundle path',process.env.AHLGREN_SSL_BUNDLE_PATH);
 
 gulp.task('start-prod-ssl', function(){
-    connect.server({ port: 443, root: 'dist', https: {
+    connect.server({ host: '10.240.182.48', port: 443, root: 'dist', https: {
         ca: fs.readFileSync(process.env.AHLGREN_SSL_BUNDLE_PATH),
         key: fs.readFileSync(process.env.AHLGREN_SSL_KEY_PATH),
         crt: fs.readFileSync(process.env.AHLGREN_SSL_CERT_PATH)
