@@ -6,14 +6,25 @@
   "main": "index.html",
   "scripts": {
     "start": "gulp start-prod",
-    "prestart": "npm install && bower install && gulp build"
+    "postinstall": "bower install --allow-root && gulp build"
   },
   "repository": {
     "type": "git",
     "url": "https://hampus_ahlgren@bitbucket.org/hampus_ahlgren/ahlgren.git"
   },
+  "engines": {
+    "node": "~4.2"
+  },
   "license": "ISC",
-  "devDependencies": {
+  "dependencies": {
+
+      "angular-animate": "~1.3.15",
+      "jquery": "~2.1.3",
+      "angular": "~1.3.15",
+      "lightbox": "~2.7.1",
+      "staggolee": "*",
+      "lightbox2": "lightbox#^2.8.2",
+
     "bower": "^1.7.9",
     "gulp": "^3.8.11",
     "gulp-angular-templatecache": "^1.6.0",
