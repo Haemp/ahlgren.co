@@ -8,6 +8,8 @@ var gulpif = require('gulp-if');
 var templateCache = require('gulp-angular-templatecache');
 var uglify =  require('gulp-uglify');
 
+const host = process.env.LOCAL_IP || undefined;
+
 var filesToMove = [
     './src/css/style.css',
     './src/css/sprites.css',
@@ -67,7 +69,8 @@ gulp.task('start', function(){
 })
 
 gulp.task('start-prod', function(){
-    connect.server({ port: 1337, root: 'dist' });
+    console.log('Host is', host);
+    connect.server({ host: host, port: 1337, root: 'dist' });
 })
 
 console.log('The bundle path',process.env.AHLGREN_SSL_BUNDLE_PATH);
