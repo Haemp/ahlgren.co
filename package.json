@@ -6,7 +6,7 @@
   "main": "index.html",
   "scripts": {
     "prestart": "npm install",
-    "start": "gulp start-prod",
+    "start": "forever start /node_modules/.bin/gulp start-prod",
     "postinstall": "bower install --allow-root && gulp build"
   },
   "repository": {
