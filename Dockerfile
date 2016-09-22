@@ -1,4 +1,4 @@
-FROM node:6
+FROM node:argon
 # replace this with your application's default port
 EXPOSE 1337
 
@@ -7,4 +7,4 @@ RUN mkdir -p /app
 WORKDIR /app
 COPY . /app
 RUN npm install
-RUN npm start
+CMD ["npm", "start"]
