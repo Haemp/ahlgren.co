@@ -7,8 +7,9 @@ var inject = require('gulp-inject');
 var gulpif = require('gulp-if');
 var templateCache = require('gulp-angular-templatecache');
 var uglify =  require('gulp-uglify');
-
-const host = process.env.LOCAL_IP || undefined;
+const confFile = require('./conf');
+const host = process.env.AHLGREN_ENV_MODE === 'prod' ? 'prod' : 'dev';
+const conf = confFile[host];
 
 var filesToMove = [
     './src/css/style.css',
@@ -69,18 +70,8 @@ gulp.task('start', function(){
 })
 
 gulp.task('start-prod', function(){
-    console.log('Host is', host);
-    connect.server({ host: host, port: 8001, root: 'dist' });
-})
-
-console.log('The bundle path',process.env.AHLGREN_SSL_BUNDLE_PATH);
-
-gulp.task('start-prod-ssl', function(){
-    connect.server({ host: '10.240.182.48', port: 443, root: 'dist', https: {
-        ca: fs.readFileSync(process.env.AHLGREN_SSL_BUNDLE_PATH),
-        key: fs.readFileSync(process.env.AHLGREN_SSL_KEY_PATH),
-        crt: fs.readFileSync(process.env.AHLGREN_SSL_CERT_PATH)
-    }});
+    console.log('Host is', conf.host);
+    connect.server({ host: conf.host, port: 8001, root: 'dist' });
 })
 
 gulp.task('sass', shell.task(["sass --watch src/css:src/css  -r 'compass/import-once/activate' --style compressed"]));
