@@ -65,12 +65,12 @@ gulp.task('inject', ['inject-src', 'bower']);
 gulp.task('build', ['templates', 'inject', 'minify', 'move']);
 
 gulp.task('start', function(){
-    connect.server({ port: 1337, root: 'src' });
+    connect.server({ port: 8001, root: 'src' });
 })
 
 gulp.task('start-prod', function(){
     console.log('Host is', host);
-    connect.server({ host: host, port: 1337, root: 'dist' });
+    connect.server({ host: host, port: 8001, root: 'dist' });
 })
 
 console.log('The bundle path',process.env.AHLGREN_SSL_BUNDLE_PATH);
