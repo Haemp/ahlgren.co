@@ -37,7 +37,7 @@ gulp.task('minify', function () {
     var assets = useref.assets();
     return gulp.src(['./src/index.html', './src/js/templates.js'])
         .pipe(assets)// this is the destination concat.js file
-        .pipe(gulpif('*.js', uglify({mangle:false})))
+        //.pipe(gulpif('*.js', uglify({mangle:false})))
         .pipe(assets.restore())
         .pipe(useref())
         .pipe(gulp.dest('./dist'));
