@@ -1,1 +1,0 @@
-brew install imagemagick && brew install graphicsmagick && brew install cairo && brew install pkg-config
