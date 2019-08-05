@@ -1,0 +1,32 @@
+.ah-slide-page{
+    position:absolute;
+    width: 100%;
+    top:0;
+    bottom: 0;
+    will-change: transform;
+}
+
+.ah-slide-page--lip{
+    position: absolute;
+    top:0;
+    bottom: 0;
+    right: 0;
+    width: 20%;
+    transform: translateX(100%);
+}
+
+.ah-slide-page__panning{
+    box-shadow: 10px 1px 30px 0px rgba(0,0,0, 0.3);
+}
+
+.ah-slide-page__turned{
+    z-index: 0;
+}
+
+.ah-slide-page__turned:first-child{
+    z-index: 1;
+}
+
+.ah-slide-page__normal + .ah-slide-page__turned{
+    z-index: 1;
+}

@@ -1,0 +1,19 @@
+.ah-coffee-meter{
+    display: flex;
+    font-family: "Rubik", sans-serif;
+    font-size: 1.2em;
+    align-items: center;
+}
+
+.ah-coffee-meter--cup-container{
+    margin-left: auto;
+    display: flex;
+}
+
+.ah-coffee-meter--cup{
+    width: 30px;
+}
+
+.ah-coffee-meter--cup-container > *{
+    margin-left: 10px;
+}

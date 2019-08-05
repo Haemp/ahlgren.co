@@ -1,0 +1,156 @@
+.ah-background{
+    
+    z-index: -1;
+    --foreground-gradient-start: #3b6b97;
+    --foreground-gradient-end: #002142;
+
+    --background-gradient-start: #cf2c37;
+    --background-gradient-end: #7a060e;
+
+    --progress:0;
+}
+
+.ah-background--full{
+    overflow: hidden;
+    position:absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+}
+
+@keyframes backgroundRotation{
+    0%{
+        transform: translate(0px) rotateX(0deg);
+    }
+    100%{
+        transform: translate(-400px) rotate(-40deg);
+    }
+}
+
+.ah-background--stars-bg{
+    width: 1900px;
+    height: 1400px;
+    position: relative;
+    top: 0;
+    left: 0;
+    background: url('./images/background-stars-v2.png') repeat;
+    animation: backgroundRotation 30s infinite alternate ease-out;
+}
+
+.ah-ahlgren__view-mode-small .ah-background--stars-bg{
+    position: relative;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: url('./images/background-stars-v2.png') right center;
+    animation: none;
+}
+
+.ah-background__light .ah-background--stars-bg{
+    background: url('./images/background-stars-black.png') repeat;
+}
+
+.ah-background--stars{
+    background-image: radial-gradient(circle 3px at 10% 10%, #fff 0%, rgba(255,255,255,0) 100%),
+                      radial-gradient(circle 4px at 5% 5%, #fff 0%, rgba(255,255,255,0) 100%),
+                      radial-gradient(circle 2px at 12% 12%, #fff 0%, rgba(255,255,255,0) 100%),
+                      radial-gradient(circle 4px at 20% 5%, #fff 0%, rgba(255,255,255,0) 100%),
+                      radial-gradient(circle 4px at 15% 15%, #fff 0%, rgba(255,255,255,0) 100%),
+                      radial-gradient(circle 2px at 10% 22%, #fff 0%, rgba(255,255,255,0) 100%),
+                      radial-gradient(circle 2px at 30% 5%, #fff 0%, rgba(255,255,255,0) 100%),
+                      radial-gradient(circle 4px at 33% 10%, #fff 0%, rgba(255,255,255,0) 100%),
+                      radial-gradient(circle 3px at 40% 5%, #fff 0%, rgba(255,255,255,0) 100%),
+                      radial-gradient(circle 4px at 45% 2%, #fff 0%, rgba(255,255,255,0) 100%),
+                      radial-gradient(circle 2px at 53% 12%, #fff 0%, rgba(255,255,255,0) 100%),
+                      radial-gradient(circle 4px at 55% 5%, #fff 0%, rgba(255,255,255,0) 100%),
+                      radial-gradient(circle 4px at 60% 15%, #fff 0%, rgba(255,255,255,0) 100%),
+                      radial-gradient(circle 2px at 73% 22%, #fff 0%, rgba(255,255,255,0) 100%),
+                      radial-gradient(circle 2px at 75% 5%, #fff 0%, rgba(255,255,255,0) 100%),
+                      radial-gradient(circle 4px at 81% 10%, #fff 0%, rgba(255,255,255,0) 100%),
+                      radial-gradient(circle 2px at 83% 10%, #fff 0%, rgba(255,255,255,0) 100%),
+                      radial-gradient(circle 3px at 90% 10%, #fff 0%, rgba(255,255,255,0) 100%),
+                      radial-gradient(circle 3px at 10% 15%, #fff 0%, rgba(255,255,255,0) 100%),
+                      radial-gradient(circle 4px at 5% 17%, #fff 0%, rgba(255,255,255,0) 100%),
+                      radial-gradient(circle 2px at 12% 23%, #fff 0%, rgba(255,255,255,0) 100%),
+                      radial-gradient(circle 4px at 20% 27%, #fff 0%, rgba(255,255,255,0) 100%),
+                      radial-gradient(circle 4px at 15% 35%, #fff 0%, rgba(255,255,255,0) 100%),
+                      radial-gradient(circle 2px at 10% 39%, #fff 0%, rgba(255,255,255,0) 100%),
+                      radial-gradient(circle 2px at 30% 42%, #fff 0%, rgba(255,255,255,0) 100%),
+                      radial-gradient(circle 3px at 90% 47%, #fff 0%, rgba(255,255,255,0) 100%),
+                      radial-gradient(circle 4px at 33% 52%, #fff 0%, rgba(255,255,255,0) 100%),
+                      radial-gradient(circle 3px at 40% 55%, #fff 0%, rgba(255,255,255,0) 100%),
+                      radial-gradient(circle 1px at 45% 56%, #fff 0%, rgba(255,255,255,0) 100%),
+                      radial-gradient(circle 2px at 53% 68%, #fff 0%, rgba(255,255,255,0) 100%),
+                      radial-gradient(circle 4px at 55% 71%, #fff 0%, rgba(255,255,255,0) 100%),
+                      radial-gradient(circle 4px at 60% 75%, #fff 0%, rgba(255,255,255,0) 100%),
+                      radial-gradient(circle 2px at 73% 83%, #fff 0%, rgba(255,255,255,0) 100%),
+                      radial-gradient(circle 2px at 75% 90%, #fff 0%, rgba(255,255,255,0) 100%),
+                      radial-gradient(circle 4px at 81% 91%, #fff 0%, rgba(255,255,255,0) 100%),
+                      radial-gradient(circle 2px at 83% 95%, #fff 0%, rgba(255,255,255,0) 100%),
+                      radial-gradient(circle 3px at 23% 25%, #fff 0%, rgba(255,255,255,0) 100%),
+                      radial-gradient(circle 4px at 27% 43%, #fff 0%, rgba(255,255,255,0) 100%),
+                      radial-gradient(circle 2px at 22% 55%, #fff 0%, rgba(255,255,255,0) 100%),
+                      radial-gradient(circle 1px at 30% 55%, #fff 0%, rgba(255,255,255,0) 100%),
+                      radial-gradient(circle 4px at 30% 75%, #fff 0%, rgba(255,255,255,0) 100%),
+                      radial-gradient(circle 2px at 10% 52%, #fff 0%, rgba(255,255,255,0) 100%),
+                      radial-gradient(circle 2px at 10% 45%, #fff 0%, rgba(255,255,255,0) 100%),
+                      radial-gradient(circle 4px at 13% 50%, #fff 0%, rgba(255,255,255,0) 100%),
+                      radial-gradient(circle 3px at 5% 60%, #fff 0%, rgba(255,255,255,0) 100%),
+                      radial-gradient(circle 1px at 4% 64%, #fff 0%, rgba(255,255,255,0) 100%),
+                      radial-gradient(circle 2px at 10% 75%, #fff 0%, rgba(255,255,255,0) 100%),
+                      radial-gradient(circle 4px at 15% 83%, #fff 0%, rgba(255,255,255,0) 100%),
+                      radial-gradient(circle 4px at 12% 87%, #fff 0%, rgba(255,255,255,0) 100%),
+                      radial-gradient(circle 2px at 8% 86%, #fff 0%, rgba(255,255,255,0) 100%),
+                      radial-gradient(circle 2px at 12% 92%, #fff 0%, rgba(255,255,255,0) 100%),
+                      radial-gradient(circle 4px at 10% 99%, #fff 0%, rgba(255,255,255,0) 100%),
+                      radial-gradient(circle 2px at 20% 90%, #fff 0%, rgba(255,255,255,0) 100%),
+                      radial-gradient(circle 3px at 22% 85%, #fff 0%, rgba(255,255,255,0) 100%),
+                      radial-gradient(circle 3px at 25% 79%, #fff 0%, rgba(255,255,255,0) 100%),
+                      radial-gradient(circle 4px at 22% 70%, #fff 0%, rgba(255,255,255,0) 100%),
+                      radial-gradient(circle 2px at 35% 90%, #fff 0%, rgba(255,255,255,0) 100%),
+                      radial-gradient(circle 4px at 39% 85%, #fff 0%, rgba(255,255,255,0) 100%),
+                      radial-gradient(circle 4px at 15% 35%, #fff 0%, rgba(255,255,255,0) 100%),
+                      radial-gradient(circle 2px at 65% 90%, #fff 0%, rgba(255,255,255,0) 100%),
+                      radial-gradient(circle 2px at 60% 85%, #fff 0%, rgba(255,255,255,0) 100%),
+                      radial-gradient(circle 3px at 30% 20%, #fff 0%, rgba(255,255,255,0) 100%),
+                      radial-gradient(circle 3px at 40% 40%, #fff 0%, rgba(255,255,255,0) 100%),
+                      radial-gradient(circle 3px at 40% 35%, #fff 0%, rgba(255,255,255,0) 100%),
+                      radial-gradient(circle 4px at 40% 25%, #fff 0%, rgba(255,255,255,0) 100%),
+                      radial-gradient(circle 2px at 50% 25%, #fff 0%, rgba(255,255,255,0) 100%),
+                      radial-gradient(circle 3px at 50% 35%, #fff 0%, rgba(255,255,255,0) 100%),
+                      radial-gradient(circle 4px at 50% 39%, #fff 0%, rgba(255,255,255,0) 100%),
+                      radial-gradient(circle 2px at 55% 40%, #fff 0%, rgba(255,255,255,0) 100%),
+                      radial-gradient(circle 2px at 75% 80%, #fff 0%, rgba(255,255,255,0) 100%),
+                      radial-gradient(circle 4px at 90% 91%, #fff 0%, rgba(255,255,255,0) 100%),
+                      radial-gradient(circle 2px at 95% 80%, #fff 0%, rgba(255,255,255,0) 100%),
+                      radial-gradient(circle 3px at 70% 55%, #fff 0%, rgba(255,255,255,0) 100%),
+                      radial-gradient(circle 4px at 70% 45%, #fff 0%, rgba(255,255,255,0) 100%),
+                      radial-gradient(circle 2px at 70% 25%, #fff 0%, rgba(255,255,255,0) 100%),
+                      radial-gradient(circle 4px at 70% 35%, #fff 0%, rgba(255,255,255,0) 100%),
+                      radial-gradient(circle 4px at 80% 70%, #fff 0%, rgba(255,255,255,0) 100%),
+                      radial-gradient(circle 1px at 75% 60%, #fff 0%, rgba(255,255,255,0) 100%),
+                      radial-gradient(circle 2px at 79% 80%, #fff 0%, rgba(255,255,255,0) 100%),
+                      radial-gradient(circle 4px at 90% 20%, #fff 0%, rgba(255,255,255,0) 100%),
+                      radial-gradient(circle 1px at 85% 30%, #fff 0%, rgba(255,255,255,0) 100%);
+}   
+
+.ah-background--foreground-gradient{
+    position: absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    background-image: radial-gradient(circle 80vw at 100% 120%,var(--foreground-gradient-start) 0%, var(--foreground-gradient-end) 100%);
+    opacity: calc(1 - var(--progress));
+}
+
+.ah-background--background-gradient{
+    background-image: radial-gradient(circle 80vw at 100% 120%, var(--background-gradient-start) 0%, var(--background-gradient-end) 100%);
+    position: absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+}

@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+
+.ah-portfolio--quantic-mind{
+    font-family: "Source Sans Pro", sans-serif;
+    color: #fff;
+    line-height: 1.7em;
+}
+
+.ah-portfolio--quantic-mind .ah-portfolio--page{
+    background: linear-gradient(45deg, #00580F, #037AE0);
+}
+
+.ah-portfolio--quantic-mind p{
+    font-size: 17px;
+}
+
+.ah-portfolio--quantic-mind p + p{
+    margin-top: 20px;
+}
+
+.ah-portfolio--quantic-mind h1{
+    font-size: 1.8em;
+    margin-bottom: 15px;
+    font-family: "Source Sans Pro", sans-serif;
+    -webkit-font-smoothing: antialiased;
+}
+
+.ah-portfolio--quantic-mind .Typo-ul li{
+    font-size: 17px;
+    font-family: "Source Sans Pro", sans-serif;
+    background-image: url('../images/qm-list-point.svg');
+}
+
+.ah-portfolio-big .ah-portfolio--page{
+    background: transparent;
+}
+
+.ah-portfolio--visit-btn{
+    border-radius: 50px;
+    border: 2px solid white;
+    display: block;
+    font-size: 1.3em;
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+}
+
+.ah-portfolio--quantic-mind .ah-portfolio--media-wrapper{
+    border: 1px solid rgba(0,0,0,0.5);
+    border-left:0;
+    border-right:0;
+    background-color: rgba(0,0,0,0.2);
+}
+
+/** 
+* Big Portfolio Customizations
+*/
+.ah-portfolio--quantic-mind .ah-portfolio-big--inner-wrapper{
+    background: linear-gradient(90deg, rgba(0, 88, 15, 0.47), rgba(3, 122, 224, 0.46));
+}
+
+.ah-portfolio--quantic-mind .ah-portfolio-big--pages{
+    border: 1px solid rgba(255,255,255,0.2);
+}
+
+.ah-portfolio--quantic-mind.ah-portfolio-big .ah-slide-page__panning{
+    background: linear-gradient(45deg, #00580F, #037AE0);
+}
+
+.ah-portfolio--quantic-mind .ah-portfolio-big--inner-wrapper .ah-portfolio--logo{
+    width: 350px;
+}

@@ -1,0 +1,13 @@
+<html>
+    <body>
+        <video src="/video/strow-video-tick.mp4" muted="true" playsinline loop style="width: 100%;"></video>
+        <button>Play</button>
+        <script>
+
+            document.querySelector('button').addEventListener('canplay', console.log('Can play'))
+            document.querySelector('button').addEventListener('click', e => 
+                document.querySelector('video').play()
+            )
+        </script>
+    </body>
+</html>

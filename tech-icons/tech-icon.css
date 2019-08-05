@@ -1,0 +1,46 @@
+
+.ah-tech-icon--img-wrapper{
+    border-radius: 100px;
+    background-color: rgba(255,255,255,0.3);
+    width: 70px;
+    height: 70px;
+    text-align: center;
+    padding: 5px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ah-tech-icon--img-wrapper img{ 
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.ah-tech-icon{
+    color: white;
+    text-align: center;
+    width: 70px;
+    margin: 5px 10px;
+}
+
+.ah-tech-icon--inner-container{
+    touch-action: pan-y;
+    user-select: none;
+    -webkit-user-drag: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px ;
+    flex-wrap: wrap;
+    max-width: 620px;
+    width: 100%;
+    border-radius: 5px;
+    background-color: rgba(0,0,0,0.1);
+    box-sizing: border-box;
+    overflow-y: auto;
+}
+.ah-tech-icon--container{
+    display: flex;
+    justify-content: center;
+}

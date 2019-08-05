@@ -1,0 +1,30 @@
+.ah-image{
+    position: absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    overflow: hidden;
+}
+
+.ah-image--img{
+    position: absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    background-repeat: no-repeat;
+}
+
+.ah-image__zooming{
+    animation: zooming 20s alternate infinite linear;
+}
+
+@keyframes zooming {
+    0%{
+        transform: scale(1);
+    }
+    100%{
+        transform: scale(1.5);
+    }
+}

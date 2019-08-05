@@ -1,0 +1,14 @@
+{
+    "modulePresets": "react",
+    "targetEnvironment": "web",
+    "export": {
+        "path": "",
+        "fileName": "exported.bundle.js"
+    },
+    "inspect": true,
+    "debug": {
+        "resolverDebug": false,
+        "resolveLoaderDebug": false
+    },
+    "statsReporting": true
+}

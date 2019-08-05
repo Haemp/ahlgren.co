@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="72px" height="72px" viewBox="0 0 72 72" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43 (38999) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 5</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="-239.892323%" y1="50%" x2="100%" y2="50%" id="linearGradient-1">
+            <stop stop-color="#FFD900" offset="0%"></stop>
+            <stop stop-color="#FF9C00" offset="23.0689008%"></stop>
+            <stop stop-color="#FE448B" offset="53.1185082%"></stop>
+            <stop stop-color="#CA4ADF" offset="77.7239354%"></stop>
+            <stop stop-color="#65C9FE" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="-227.141181%" y1="49.8040557%" x2="100%" y2="50%" id="linearGradient-2">
+            <stop stop-color="#FFD900" offset="0%"></stop>
+            <stop stop-color="#FF9C00" offset="23.0689008%"></stop>
+            <stop stop-color="#FE448B" offset="53.1185082%"></stop>
+            <stop stop-color="#CA4ADF" offset="77.7239354%"></stop>
+            <stop stop-color="#65C9FE" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Final-Slide" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-64.000000, -492.000000)">
+            <g id="Group-5" transform="translate(66.248947, 494.259714)">
+                <path d="M28.8298298,23.1295036 C26.5869082,23.1295036 24.7686609,21.3112563 24.7686609,19.0683347 C24.7686609,16.825413 26.5869082,15.0071657 28.8298298,15.0071657 C31.0727515,15.0071657 32.8909988,16.825413 32.8909988,19.0683347 C32.8909988,21.3112563 31.0727515,23.1295036 28.8298298,23.1295036 Z M54.640735,46.9519229 C54.640735,46.9519229 48.8454631,54.0943493 39.7754594,52.7507777 C30.7054557,51.4072062 25.1197809,44.4779598 23.3982179,37.2137163 C21.5243835,29.3009756 21.9865721,25.0320009 20.2076833,21.7554778 C17.6871431,17.1371745 15,16.044403 15,16.044403 C15,16.044403 20.4925205,16.8702516 23.5701951,20.9994948 C25.2273508,23.2767006 26.4515544,25.8392696 27.1817154,28.5593241 C27.1817154,28.5593241 29.3708413,24.4623266 33.3173588,22.504295 C42.6399539,17.8859917 50.1997832,23.5128693 50.1997832,23.5128693 C50.1997832,23.5128693 42.7456482,19.6344261 34.997719,25.947421 C30.4618214,29.6431385 28.8746155,36.1030305 31.3020015,42.4088596 C33.7293874,48.7146888 44.8989456,56.023718 54.640735,46.9519229 Z" id="Combined-Shape" fill="url(#linearGradient-1)" fill-rule="nonzero"></path>
+                <circle id="Oval" stroke="url(#linearGradient-2)" stroke-width="4" cx="34" cy="34" r="33.626975"></circle>
+            </g>
+        </g>
+    </g>
+</svg>

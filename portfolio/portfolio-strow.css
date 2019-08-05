@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css?family=Muli');
+
+.ah-portfolio--strow{
+    font-family: "Muli", sans-serif;
+    color: #f1eeff;
+}
+
+.ah-portfolio--strow a {
+    text-decoration: underline;
+    color: #ccc8ee;
+}
+
+.ah-portfolio--strow .ah-tech-icon--img-wrapper{
+    background-color: #464261;
+    margin-bottom: 5px;
+}
+
+.ah-portfolio--strow .ah-tech-icon label{
+    color: #c5c1eb;
+    font-size: 0.8em;
+}
+
+.ah-portfolio--strow .ah-portfolio--page{
+    background-color: #3d3a57;
+}
+
+.ah-portfolio--strow--slide{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 50px;
+}
+
+.ah-portfolio--strow p{
+    line-height: 1.3em;
+}
+
+.ah-portfolio--strow p + p{
+    margin-top: 20px;
+}
+
+.ah-portfolio--strow h1{
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.ah-portfolio--strow .ah-portfolio--visit-btn{
+    border: 2px solid rgba(255,255,255,0.3);
+    background-image: linear-gradient(45deg, #EF73B1, #FF8484);
+    display:block;
+    padding: 20px;
+    text-align: center;
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 6px;
+}
+
+.ah-portfolio--strow--video1{
+    position: relative;
+}
+
+.ah-portfolio--strow--video3{
+    position: relative;
+}
+
+.ah-portfolio--strow--video2{
+    position: relative;
+    height: 200px;
+}
+
+.ah-portfolio--strow--logo{
+    width: 300px;
+}
+
+.ah-portfolio--text-wrapper{
+    padding: 20px;
+}
+
+/** 
+ * Small Portfolio Customizations
+ */
+.ah-portfolio--strow.ah-portfolio-small .ah-slide-page__panning .ah-portfolio--splash-page{
+    background-color: #3d3a57;
+}
+
+/** 
+ * Big Portfolio Customizations
+ */
+.ah-portfolio--strow .ah-portfolio-big--inner-wrapper{
+    background-color: rgba(48, 44, 76, 0.53);
+}
+
+.ah-portfolio--strow .ah-portfolio-big--pages{
+    background-color: #3d3a57;
+}
+
+.ah-portfolio--strow.ah-portfolio-big .ah-slide-page__panning{
+    background-color: #322f4c;
+}
+
+.ah-portfolio--strow .ah-portfolio-big--inner-wrapper .ah-portfolio--logo{
+    width: 400px;
+}
