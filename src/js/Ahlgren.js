@@ -6,6 +6,5 @@
         'co.ahlgren.Profile',
         'co.ahlgren.Texticon'
     ])
-
 })();
 
