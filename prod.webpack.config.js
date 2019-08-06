@@ -36,7 +36,8 @@ module.exports = {
                                 require('@babel/preset-env'),
                                 {
                                     targets: '> 0.25%, not dead',
-                                    useBuiltIns: 'usage'
+                                    useBuiltIns: 'usage',
+                                    corejs: 2
                                 }
                             ],
                             require('@babel/preset-react')
