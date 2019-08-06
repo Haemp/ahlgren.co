@@ -11,6 +11,7 @@ import VideoPlayer from '../video-player/VideoPlayer';
 import YoutubeVideo from '../youtube-player/YoutubePlayer';
 import { List, ListItem } from '../theme/List';
 import { ScaledTitle } from '../theme/ScaledComponents';
+import PortfolioButton from '../portfolio/PortfolioButton';
 
 const overviewVideo =
     '//play.vidyard.com/BkqirbHdF6W2gW6dmW4QhA.html?v=3.1.1&autoplay=0';
@@ -22,7 +23,7 @@ const CoverImageSizer = props => {
         <Box center parentFill>
             <img
                 style={{
-                    width: '30%',
+                    width: '30%'
                 }}
                 src={props.cover}
             />
@@ -153,6 +154,9 @@ export default props => (
                 </ListItem>
             </List>
             {/* <Link href="https://quanticmind.com">Visit QuanticMind.com</Link> */}
+            <PortfolioButton link="https://quanticmind.com">
+                Visit QuanticMind
+            </PortfolioButton>
         </Box>
     </Portfolio>
 );

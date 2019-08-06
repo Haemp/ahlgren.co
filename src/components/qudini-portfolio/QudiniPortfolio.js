@@ -18,6 +18,7 @@ import YoutubeVideo from '../youtube-player/YoutubePlayer';
 import { List, ListItem } from '../theme/List';
 import { ScaledTitle } from '../theme/ScaledComponents';
 import SkillsContainer from '../skills/SkillsContainer';
+import PortfolioButton from '../portfolio/PortfolioButton';
 
 const qudiniCustomerCase = 'https://www.youtube.com/embed/sjRBmc2zQ1U';
 const qudiniNatWest = 'https://www.youtube.com/embed/9EfJ7UbCOf0';
@@ -196,6 +197,7 @@ export default props => (
                 man did I learn a lot!
             </Paragraph> */}
             {/* <Link href="https://qudini.com">Visit Qudini.com</Link> */}
+            <PortfolioButton link="https://qudini.com">Visit Qudini</PortfolioButton>
         </Box>
     </Portfolio>
 );

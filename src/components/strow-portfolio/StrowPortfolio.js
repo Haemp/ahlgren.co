@@ -10,6 +10,7 @@ import { Icon, IconContainer } from '../icon-container/IconContainer';
 import VideoPlayer from '../video-player/VideoPlayer';
 import { ScaledTitle } from '../theme/ScaledComponents';
 import SkillsContainer from '../skills/SkillsContainer';
+import PortfolioButton from '../portfolio/PortfolioButton';
 const strowVideo2 =
     'https://firebasestorage.googleapis.com/v0/b/ahlgren-co.appspot.com/o/videos%2Fstrow-video2.mp4?alt=media&token=d990ada7-42d6-47fd-8bdb-3481e7e90f0c';
 const strowVideoTick =
@@ -147,7 +148,8 @@ export default props => (
                     url={strowVideoTick}
                 />
             </AspectBox>
-            {/* <Link><A href="https://strive-2.web.app/">Visit Strow</A></Link> */}
+            <PortfolioButton link="https://strive-2.web.app/">Visit Strow</PortfolioButton>
+            {/* <Link><A href="">Visit Strow</A></Link> */}
         </Box>
     </Portfolio>
 );

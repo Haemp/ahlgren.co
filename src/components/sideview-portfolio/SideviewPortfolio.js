@@ -198,6 +198,7 @@ export default props => (
             {/* <A>
                 Visit Sideview.app
             </A> */}
+            <PortfolioButton link="https://sideview.app">Visit Sideview</PortfolioButton>
         </Box>
     </Portfolio>
 );

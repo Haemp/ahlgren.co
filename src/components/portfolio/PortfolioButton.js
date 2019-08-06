@@ -1,22 +1,32 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types'
 import styled from 'styled-components'
-import { fat } from '../theme/ThemeRules';
+import { relativeFontSize, baseText } from '../theme/ThemeRules';
 
 const StyledPortfolioButton = styled.a`
-    ${fat}
+    ${baseText}
+    ${relativeFontSize({ relSize: 3.5, sizeMin: 20, sizeMax: 26 })};  
     ${props => {
-        return `
-            border-radius: 100px;
+        return `;
             padding: 20px;
             text-align: center;
-            letter-spacing: .3;
+            font-weight: 400;
+            letter-spacing: -1.6;
             display: block;
-            font-size: 24px;
-            text-transform: uppercase;
+            text-decoration: none;
+            color: #333;
             cursor: pointer;
-            color: ${props.textColor};
-            background: linear-gradient(${props.rotation}, ${props.startGrad}, ${props.endGrad});
+            background-color: #F4F4F4;
+            border-radius: 15px;
+            transition: all 0.3s;
+
+            :hover{
+                background-color: #ddd;
+            }
+
+            :active{
+                background-color: #fff;                
+            }
         `
     }}
 `
@@ -24,23 +34,19 @@ const StyledPortfolioButton = styled.a`
 /**
  * @usage
  * ```javascript
- * <PortfolioButton startGrad endGrad text link>Visit Strive</PortfolioButton>
+ *  <PortfolioButton link="https://strive.ahlgren.co">Visit Strive</PortfolioButton>
  * ```
  */
 class PortfolioButton extends Component {
 
     static propTypes = {
-        startGrad: PropTypes.string.isRequired,
-        rotation: PropTypes.string.isRequired,
-        textColor: PropTypes.string.isRequired,
-        endGrad: PropTypes.string.isRequired,
         children: PropTypes.element.isRequired,
         link: PropTypes.string.isRequired,
     }
 
     render() {
         return (
-            <StyledPortfolioButton {...this.props}>
+            <StyledPortfolioButton {...this.props} href={this.props.link} target="_blank">
                 {this.props.children}
             </StyledPortfolioButton>
         );

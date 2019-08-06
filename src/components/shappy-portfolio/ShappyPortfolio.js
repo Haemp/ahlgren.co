@@ -10,6 +10,7 @@ import { Icon, IconContainer } from '../icon-container/IconContainer';
 import VideoPlayer from '../video-player/VideoPlayer';
 import YoutubeVideo from '../youtube-player/YoutubePlayer';
 import { ScaledTitle } from '../theme/ScaledComponents';
+import PortfolioButton from '../portfolio/PortfolioButton';
 const shappyCooperDrop =
     'https://firebasestorage.googleapis.com/v0/b/ahlgren-co.appspot.com/o/videos%2Fshappy-video2.mp4?alt=media&token=e014e1f8-74c2-41ac-8a1c-ee63e6cea50b';
 const shappyVideoTitle =
@@ -158,6 +159,8 @@ export default props => (
             {/* <Link href="https://shappy.ahlgren.co">
                 Visit shappy.ahlgren.com
             </Link> */}
+
+            <PortfolioButton link="https://shappy.web.app">Visit Shappy</PortfolioButton>
         </Box>
     </Portfolio>
 );
