@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="49px" height="37px" viewBox="0 0 49 37" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>icon-gmail</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0.25024397" y="0.575814691" width="48.4429567" height="36.6019467" rx="2"></rect>
+        <polygon id="path-3" points="50.6932007 19.3534223 44.7197981 53.1777614 8.23360903 53.1777614"></polygon>
+        <filter x="-3.5%" y="-4.4%" width="107.1%" height="108.9%" filterUnits="objectBoundingBox" id="filter-4">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="0.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.874509804   0 0 0 0 0.874509804   0 0 0 0 0.874509804  0 0 0 1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <filter x="-4.7%" y="-5.9%" width="109.4%" height="111.8%" filterUnits="objectBoundingBox" id="filter-5">
+            <feGaussianBlur stdDeviation="0.5" in="SourceAlpha" result="shadowBlurInner1"></feGaussianBlur>
+            <feOffset dx="0" dy="1" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 1   0 0 0 0 1   0 0 0 0 1  0 0 0 0.5 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+        <linearGradient x1="2.07569695%" y1="71.3443041%" x2="100%" y2="71.3443032%" id="linearGradient-6">
+            <stop stop-color="#4D4C4C" stop-opacity="0.3" offset="0%"></stop>
+            <stop stop-color="#E7E7E7" stop-opacity="0.3" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard-Copy-4" transform="translate(-549.000000, -5916.000000)">
+            <g id="Group-20" transform="translate(485.500000, 5873.750000)">
+                <g id="icon-gmail" transform="translate(63.579999, 42.000000)">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <use id="Mask" fill="#D8D8D8" xlink:href="#path-1"></use>
+                    <g mask="url(#mask-2)">
+                        <g transform="translate(-2.000000, -16.000000)">
+                            <rect id="Rectangle" x="0.52200005" y="8.35200079" width="52.200005" height="52.200005"></rect>
+                            <g id="Group" stroke-width="1" fill-rule="evenodd">
+                                <polygon id="Rectangle-7" fill="#EFEFEF" points="8.23360903 16.6483569 44.7197981 16.6483569 44.7197981 53.1777614 8.23360903 53.1777614"></polygon>
+                                <g id="Rectangle-7">
+                                    <use fill="black" fill-opacity="1" filter="url(#filter-4)" xlink:href="#path-3"></use>
+                                    <use fill="#EFEFEF" fill-rule="evenodd" xlink:href="#path-3"></use>
+                                    <use fill="black" fill-opacity="1" filter="url(#filter-5)" xlink:href="#path-3"></use>
+                                </g>
+                                <path d="M2.2602064,19.6377114 C2.2602064,17.9867365 3.60075455,16.6483569 5.24690771,16.6483569 L8.23360903,16.6483569 L8.23360903,53.1777614 L5.24690771,53.1777614 C3.59739813,53.1777614 2.2602064,51.8343378 2.2602064,50.1884069 L2.2602064,19.6377114 Z" id="Rectangle-7" fill="#D44739"></path>
+                                <path d="M20.7487438,24.9464128 L43.108277,15.4421849 L60.2981336,33.7827553 L50.3298522,44.7368838 L4.87605221,45.0655568 C4.68700851,45.0669238 4.63730402,44.9395392 4.75071685,44.7988021 L20.7487438,24.9464128 Z" id="Rectangle-17" fill="url(#linearGradient-6)" transform="translate(32.493648, 30.253853) rotate(-315.000000) translate(-32.493648, -30.253853) "></path>
+                                <rect id="Rectangle-18" x="0" y="53.1777614" width="57.9581498" height="10.5062447"></rect>
+                                <path d="M44.7197981,16.6483569 L47.7064994,16.6483569 C49.356009,16.6483569 50.6932007,17.9917805 50.6932007,19.6377114 L50.6932007,50.1884069 C50.6932007,51.8393818 49.3526525,53.1777614 47.7064994,53.1777614 L44.7197981,53.1777614 L44.7197981,16.6483569 Z" id="Rectangle-7" fill="#B53120"></path>
+                                <path d="M5.16618606,16.6483569 L47.5503528,16.6483569 L44.6091767,25.5317105 C44.6091767,25.5317105 32.2611188,31.8144589 26.3112621,31.8144589 C20.0990561,31.8144589 8.12298858,25.5317105 8.12298858,25.5317105 L5.16618606,16.6483569 Z" id="Rectangle-7" fill="#EFEFEF"></path>
+                                <path d="M26.5515782,38.7095278 L26.5183149,38.7558974 L26.5030526,38.7447837 L26.4820778,38.7600228 L26.4350057,38.6952337 L3.48887576,21.9864124 C2.15323248,21.013829 1.84987692,19.1290968 2.8251153,17.7867963 L2.80454269,17.8151121 C3.78241355,16.4691883 5.65772118,16.1746704 6.99903933,17.1491951 L26.4936848,31.3128841 L45.9560951,17.1726153 C47.3039025,16.193376 49.1903587,16.492176 50.1651736,17.8338937 C51.1419761,19.178347 50.8402009,21.0628104 49.4934099,22.0413114 L26.5515782,38.7095278 Z" id="Combined-Shape" fill="#DB4639"></path>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

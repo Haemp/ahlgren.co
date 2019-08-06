@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="19px" height="23px" viewBox="0 0 19 23" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>Combined Shape</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <radialGradient cx="0%" cy="31.397077%" fx="0%" fy="31.397077%" r="195.190664%" gradientTransform="translate(0.000000,0.313971),scale(0.574774,1.000000),rotate(29.944504),translate(-0.000000,-0.313971)" id="radialGradient-1">
+            <stop stop-color="#81C5EE" offset="0%"></stop>
+            <stop stop-color="#2C7FBF" offset="100%"></stop>
+        </radialGradient>
+    </defs>
+    <g id="Page-2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-532.000000, -2595.000000)" fill="url(#radialGradient-1)">
+            <g id="Group-7" transform="translate(529.608696, 2591.000000)">
+                <path d="M1.30039032e-10,13.1941564 C3.97285385,12.0786454 7.58789661,12.5426441 10.8451283,14.5861524 C7.7439247,12.19976 4.20409168,11.4083077 0.2256292,12.2117957 C1.64652334,8.9136903 6.78037889,6.67026738 11.5825799,8.88919404 C16.7116168,11.25914 18.0138406,16.9313033 25.381123,16.3714828 C15.0304464,29.1438699 0.468849711,19.2421947 -8.05831096e-14,13.1941564 Z" id="Combined-Shape" transform="translate(12.690562, 15.294207) rotate(-64.000000) translate(-12.690562, -15.294207) "></path>
+            </g>
+        </g>
+    </g>
+</svg>
