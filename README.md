@@ -8,4 +8,4 @@ This is my website, there are many like it but this one is mine.
 
 You'll find everything inside src/components
 
-Change
+Change this page
